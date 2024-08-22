@@ -8,9 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
-    <link rel="stylesheet" href="/css/reset.css">
-    <link rel="stylesheet" href="/css/all.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./scss/reset.css">
+    <link rel="stylesheet" href="./scss/all.css">
 </head>
 
 <body>
@@ -37,9 +37,9 @@
     </section>
     <section class="resume-info">
         <div class="container">
-            <div class="w-50" data-aos="fade-left">
-                <div class="resume-info__item" data-aos="fade-up">
-                    <h3 class="resume-info__item__title text-red">Vito Evans</h3>
+            <div class="w-50">
+                <div class="resume-info__item">
+                    <h3 class="resume-info__item__title text-red" data-aos="mask-animation">Vito Evans</h3>
                     <ul>
                         <li>456 Walnut Avenue, Someville, USA</li>
                         <li>+1 123 456 7890</li>
@@ -47,8 +47,8 @@
                         <li>www.infohexschool.com</li>
                     </ul>
                 </div>
-                <div class="resume-info__item" data-aos="fade-up">
-                    <h3 class="resume-info__item__title text-red">Education</h3>
+                <div class="resume-info__item">
+                    <h3 class="resume-info__item__title text-red" data-aos="mask-animation">Education</h3>
                     <ul>
                         <li><small>2014-2018</small>Bachelor of Science in Business Administration, University of
                             California, Los Angeles</li>
@@ -57,16 +57,16 @@
                         <li><small>2008-2012</small>High School Diploma, Lincoln High School</li>
                     </ul>
                 </div>
-                <div class="resume-info__item" data-aos="fade-up">
-                    <h3 class="resume-info__item__title text-red">Work</h3>
+                <div class="resume-info__item">
+                    <h3 class="resume-info__item__title text-red" data-aos="mask-animation">Work</h3>
                     <ul>
                         <li><small>2018-2021</small>Marketing Manager, ABC Company</li>
                         <li><small>2016-2018</small>Sales Associate, XYZ Corporation</li>
                         <li><small>2014-2016</small>Customer Service Representative, QRS Inc.</li>
                     </ul>
                 </div>
-                <div class="resume-info__item" data-aos="fade-up">
-                    <h3 class="resume-info__item__title text-red">Awards</h3>
+                <div class="resume-info__item">
+                    <h3 class="resume-info__item__title text-red" data-aos="mask-animation">Awards</h3>
                     <ul>
                         <li>Best in Show Award, National Advertising Awards, 2020</li>
                         <li>Honorable Mention, International Design Competition, 2019</li>
@@ -78,26 +78,20 @@
     </section>
     <footer class="footer bg-dark">
         <ul class="social-list">
-            <li><a href="#" data-aos="fade-up"><img
+            <li><a href="#"><img
                         src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week1/fb.png?raw=true"
                         alt=""></a></li>
-            <li><a href="#" data-aos="fade-up"><img
+            <li><a href="#"><img
                         src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week1/instagram.png?raw=true"
                         alt=""></a></li>
-            <li><a href="#" data-aos="fade-up"><img
+            <li><a href="#"><img
                         src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week1/line.png?raw=true"
                         alt=""></a></li>
         </ul>
     </footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-    <script>
-        AOS.init({
-            duration: 500, 
-            delay: 0,
-            easing: 'ease-in-sine',
-            anchorPlacement: 'top-center',
-        });
-    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./js/main.js"> </script>
+    
 </body>
 
 </html>

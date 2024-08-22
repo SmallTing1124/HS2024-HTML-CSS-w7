@@ -2,6 +2,7 @@ body {
     line-height: 1.5;
     font-family: Castoro;
     font-size: 32px;
+    overflow-x: hidden;
 }
 
 .container {
@@ -97,10 +98,47 @@ body {
 
     a {
         display: block;
-        padding:0 20px;
+        padding: 0 20px;
 
         img {
             width: 64px;
         }
     }
 }
+
+[data-aos="mask-animation"] {
+    position: relative;
+}
+
+[data-aos="mask-animation"]::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #fff;
+    right: 0;
+    top: 0;
+    transition: width 3s;
+}
+
+[data-aos="mask-animation"].aos-animate::after {
+    width: 0%;
+
+}
+
+// [data-aos="new-animation"] {
+//     opacity: 0;
+//     transition-property: transform, opacity;
+
+//     &.aos-animate {
+//         opacity: 1;
+//     }
+
+//     @media screen and (min-width: 768px) {
+//         transform: translateX(100px);
+
+//         &.aos-animate {
+//             transform: translateX(0);
+//         }
+//     }
+// }
