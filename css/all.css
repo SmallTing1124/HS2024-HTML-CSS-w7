@@ -1,0 +1,96 @@
+body {
+  line-height: 1.5;
+  font-family: Castoro;
+  font-size: 32px;
+}
+
+.container {
+  width: 1296px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.ms-auto {
+  margin-left: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-end {
+  text-align: right;
+}
+
+.text-red {
+  color: rgb(174, 0, 0);
+}
+
+.bg-gray {
+  background: rgb(239, 239, 239);
+}
+
+.bg-dark {
+  background: rgb(0, 0, 0);
+}
+
+.resume-img {
+  width: 636px;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.resume-title {
+  font-size: 128px;
+  letter-spacing: 12%;
+}
+
+.resune-text {
+  padding: 48px 0;
+}
+
+.resume-info {
+  padding-top: 80px;
+  padding-bottom: 120px;
+}
+
+.resume-info__item {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+.resume-info__item__title {
+  border-bottom: 3px solid rgb(174, 0, 0);
+  font-size: 40px;
+  margin-bottom: 16px;
+}
+.resume-info__item ul li {
+  margin-bottom: 8px;
+}
+.resume-info__item ul li small {
+  display: block;
+  font-size: 20px;
+  color: rgb(148, 148, 148);
+}
+
+.footer {
+  padding: 64px 0;
+}
+
+.social-list {
+  text-align: center;
+}
+.social-list li {
+  display: inline-block;
+}
+.social-list a {
+  display: block;
+  padding: 0 20px;
+}
+.social-list a img {
+  width: 64px;
+}/*# sourceMappingURL=all.css.map */
